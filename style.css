@@ -50,6 +50,7 @@ video {
 #nav h4{
     /* padding-top: 27px; */
     font-size: 25px;
+    font-weight: 100;
 }
 
 #nav img{
@@ -71,10 +72,25 @@ video {
     flex-direction: column;
     text-align:center;
     z-index: 10;
+    background-color: black; /* temporary */
 }
+
 #page1 h1{
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 800;
     position: relative;
     color: #fff;
+}
+
+#page1 h2{
+    font-size: 35px;
+    font-weight: 400;
+    position: relative;
+    color: #fff;
+}
+
+#page1 h2::before{
+    /* content: "here creativity meets expression, every stroke tells a story" ; */
+    position: absolute;
+    color: ;
 }
