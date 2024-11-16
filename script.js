@@ -7,6 +7,7 @@ function loco(){
     el: document.querySelector("#main"),
     smooth: true
   });
+
   // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
   locoScroll.on("scroll", ScrollTrigger.update);
   
@@ -35,8 +36,8 @@ function loco(){
 
 gsap.to("#nav",{
     //camel case (where we don't need to use - b/w bg & colr)
-    backgroundColor : "#c0c0c0", 
-    height: "110px",
+    backgroundColor : "#4169E1", 
+    height: "130px",
     duration : 0.5,
     scrollTrigger:{
         trigger: "#nav",
