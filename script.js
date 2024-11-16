@@ -36,7 +36,7 @@ function loco(){
 
 gsap.to("#nav",{
     //camel case (where we don't need to use - b/w bg & colr)
-    backgroundColor : "#4169E1", 
+    backgroundColor : "#191970", 
     height: "130px",
     duration : 0.5,
     scrollTrigger:{
