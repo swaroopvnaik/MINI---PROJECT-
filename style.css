@@ -1,19 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.Roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
 body, html {
     width: 100%;
     height: 100%;
-    /* overflow: hidden; */
     scroll-behavior: smooth;
 }
 
@@ -30,46 +24,11 @@ video {
     object-fit: cover;
 }
 
-#nav{
-    color: white;
-    height: 150px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 150px;
-    gap: 50px;
-    position: fixed;
-    justify-content: flex-start;
-    z-index: 999;
-/* ------------------------------------------------------------------------------------------------ */
-    /* background-color: rgba(0, 0, 0, 0.5);  Semi-transparent background */
-    /* backdrop-filter: blur(10px);  Apply blur effect
-    -webkit-backdrop-filter: blur(10px);  For Safari support
-    padding: 10px;  */
-}
-
-#nav a{
-    text-decoration: none;
-    color: inherit; 
-}
-
-#nav h4{
-    /* padding-top: 27px; */
-    font-size: 25px;
-    font-weight: 100;
-    text-transform: uppercase;
-}
-
-#nav img{
-    height: 110px;
-    border-radius: 25px;
-}
-
-#main{
+#main {
     position: relative;
 }
 
-#page1{
+#page1 {
     height: 100vh;
     width: 100%;
     position: relative;
@@ -77,40 +36,36 @@ video {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align:center;
+    text-align: center;
     z-index: 10;
-    /* background-color: black; temporary */
 }
 
-#page1 h1{
+#page1 h1 {
     font-size: 50px;
     font-weight: 800;
     position: relative;
     color: #fff;
 }
 
-#page1 h2{
+#page1 h2 {
     font-size: 35px;
     font-weight: 400;
     position: relative;
     color: #fff;
 }
 
-
-
-#page2{
-    height: 100vh;
-    width: 100%;
-    position:relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    z-index: 999;
-}
-#page2 h2 {
-    font-size: 40px;
+#page1 button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
     color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
-
+#page1 button:hover {
+    background-color: #1e90ff;
+}
